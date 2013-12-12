@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
         <widget xmlns = "http://www.w3.org/ns/widgets"
                 xmlns:gap = "http://phonegap.com/ns/1.0"
-                id        = "com.rob.first"
+                id        = "com.rob.phonegap-start"
                 versionCode=""
                 version   = "1">
-                <name>first</name>
+                <name>MBOE</name>
                 <description>
                 </description>
                 <author href="" email="robjules@gmail.com">
