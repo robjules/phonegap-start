@@ -5,16 +5,18 @@
                 versionCode=""
                 version   = "1">
                 <name>MBOE</name>
-                <icon src="/www/res/icon/ios/icon.PNG" gap:platform="ios" width="57" height="57" />
+              <icon src="icon/ios/icon.PNG" gap:platform="ios" width="57" height="57" />
+                
+               <icon src="icons/ios/icon.PNG" gap:platform="ios" width="72" height="72" />
                 <description>
                 </description>
                 <author href="" email="robjules@gmail.com">
 Rob Julianelle
                 </author>
-                <preference name="phonegap-version" value="2.9.0" />
+                <preference name="phonegap-version" value="3.1.0" />
                 <preference name="orientation" value="portrait" />
                 <preference name="target-device" value="handset" />
-                <preference name="fullscreen" value="false" />
+                <preference name="fullscreen" value="true" />
                 <preference name="webviewbounce" value="true" />
                 <preference name="prerendered-icon" value="true" />
                 <preference name="stay-in-webview" value="true" />
@@ -24,8 +26,7 @@ Rob Julianelle
                 <preference name="show-splash-screen-spinner" value="true" />
                 <preference name="auto-hide-splash-screen" value="true" />
                 <preference name="disable-cursor" value="false" />
-                <preference name="android-minSdkVersion" value="7" />
-                <preference name="android-installLocation" value="internalOnly" />
+                
                 <preference name="splash-screen-duration" value="5000" />
                 <preference name="load-url-timeout" value="20000" />
                 <preference name="KeepRunning" value="true"/>
