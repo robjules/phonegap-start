@@ -5,6 +5,7 @@
                 versionCode=""
                 version   = "1">
                 <name>MBOE</name>
+                <icon src="icons/ios/icon.PNG" gap:platform="ios" width="57" height="57" />
                 <description>
                 </description>
                 <author href="" email="robjules@gmail.com">
