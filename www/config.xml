@@ -3,13 +3,13 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.phonegap.hello-world"
-        version   = "1.0.0">
+        id        = "com.rob.first"
+        version   = "99.99">
 
-    <name>Hello World</name>
+    <name>Rob's First App</name>
 
     <description>
-        Hello World sample application that responds to the deviceready event.
+        My first attempt at using Phonegap for app building.
     </description>
 
     <author href="http://phonegap.com" email="support@phonegap.com">
@@ -22,6 +22,7 @@
     -->
     <feature name="http://api.phonegap.com/1.0/device" />
 
+<<<<<<< HEAD
     <!--
         If you do not want any permissions to be added to your app, add the
         following tag to your config.xml; you will still have the INTERNET
@@ -51,6 +52,12 @@
         <gap:plugin name="Example" />
         A list of available plugins are available at https://build.phonegap.com/docs/plugins
     -->
+=======
+    <preference name="phonegap-version" value="1.8.1" />
+    <preference name="orientation"      value="default" />
+    <preference name="target-device"    value="universal" />
+    <preference name="fullscreen"       value="false" />
+>>>>>>> parent of 908a5f6... Whoops thought I was looking at my fork
 
     <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
