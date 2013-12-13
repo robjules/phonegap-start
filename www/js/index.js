@@ -55,3 +55,7 @@ function onDeviceReady() {
 }
   
 document.addEventListener('deviceready', onDeviceReady, false);
+Attempting to access an element too early will have unexpected results.
+    var title = document.getElementById( "hello-world" );
+    console.log( title );
+ 
