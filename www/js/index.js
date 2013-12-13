@@ -53,9 +53,3 @@ function onDeviceReady() {
           document.body.style.marginTop = "20px";
     }
 }
-  
-document.addEventListener('deviceready', onDeviceReady, false);
-Attempting to access an element too early will have unexpected results.
-    var title = document.getElementById( "hello-world" );
-    console.log( title );
- 
